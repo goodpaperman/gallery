@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AX - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/AX.res" /d "_DEBUG" /d "_AFXDLL" "E:\code\mfc\gallery\AX\AX.rc"" 
+Creating temporary file "C:\DOCUME~1\yh\LOCALS~1\Temp\RSP6CF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/AX.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"E:\code\mfc\gallery\AX\AX.cpp"
+"E:\code\mfc\gallery\AX\MainFrm.cpp"
+"E:\code\mfc\gallery\AX\ChildView.cpp"
+"E:\code\mfc\gallery\AX\barcodectrl.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yh\LOCALS~1\Temp\RSP6CF.tmp" 
+Creating temporary file "C:\DOCUME~1\yh\LOCALS~1\Temp\RSP6D0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/AX.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"E:\code\mfc\gallery\AX\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yh\LOCALS~1\Temp\RSP6D0.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/AX.pdb" /debug /machine:I386 /out:"Debug/AX.exe" /pdbtype:sept  .\Debug\AX.obj .\Debug\StdAfx.obj .\Debug\MainFrm.obj .\Debug\ChildView.obj .\Debug\AX.res .\Debug\barcodectrl.obj "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AX.cpp
+MainFrm.cpp
+ChildView.cpp
+barcodectrl.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+AX.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
